@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en" id="comingSoon">
+<!--<![endif]-->
+<head>
+		<!-- Basic Page Needs
+		================================================== -->
+		<meta charset="utf-8">
+		<title>CLEAR-FIX One Page Bootstrap 3 website theme</title>
+		<meta name="description" content="CLEARFIX is a One Page Bootstrap 3 Premium website Template, using nice Paralax effect, HTML5, CSS3 and Twitter Bootstrap 3">
+		<meta name="author" content="Little NEKO">
+		<!-- Mobile Specific Metas
+		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- CSS
+		================================================== -->
+		<!-- Bootstrap  -->
+		<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<!-- web font  -->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'>
+		
+		<!-- icon fonts -->
+		<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
+		<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
+		<!-- Custom css -->
+		<link type="text/css" rel="stylesheet" href="css/layout.css">
+		<link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+		<script src="js/modernizr-2.6.1.min.js"></script>
+
+		
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+	</head>
+	<body id="comingSoonPic">
+		<div class="maskParent">
+			<div class="maskOverlay opacity-7"></div>
+		<!-- Primary Page Layout 
+		================================================== -->
+		<div style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); width: 100%;">
+			<!-- content -->
+			<section class="counter mb30">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12 text-center">
+							<img src="images/main-logo-big.png" alt="" class="comingSoonLogo"/>
+							<h1>Coming soon...</h1>
+							<p>We are launching our new website very soon!</p>
+						</div>
+						<div class="col-md-12">
+							<div id="defaultCountdown"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section  id="social">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12 text-center">
+							<ul class="socialNetwork">
+								<li><a href="#" class="tips" title="follow me on Facebook"><i class="icon-glyph-320 iconRounded"></i></a></li>
+								<li><a href="https://twitter.com/LIttleNeko1" class="tips" title="follow me on Twitter" target="_blank"><i class="icon-glyph-339 iconRounded"></i></a></li>
+								<li><a href="#" class="tips" title="follow me on Google+"><i class="icon-glyph-317 iconRounded"></i></a></li>
+								<li><a href="#" class="tips" title="follow me on Linkedin"><i class="icon-glyph-308 iconRounded"></i></a></li>
+								<li><a href="#" class="tips" title="follow me on Dribble"><i class="icon-glyph-325 iconRounded"></i></a></li>
+							</ul>     
+						</div>
+
+						<div class="col-md-12 text-center copyright" >
+							<p class="copyright">Copyright © 2015 <a href="http://www.little-neko.com" target="blank">Little NEKO</a> / All rights reserved.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- End footer -->
+	</div>
+
+		<!-- End Document 
+		================================================== -->
+		<script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
+		<script type="text/javascript" src="js-plugin/jquery/jquery.1.10.2.min.js"></script>
+		<script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+		<!-- third party plugins  -->
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
+
+
+		<!-- countdown -->
+		<script type="text/javascript" src="js-plugin/jquery.countdown.package-1.6.3/jquery.countdown.js"></script>
+
+
+		<script type="text/javascript">
+			$(function () {
+				var austDay = new Date();
+				austDay = new Date(austDay.getFullYear()+1, 1 - 1, 26);
+				$('#defaultCountdown').countdown({until: austDay});
+				$('#year').text(austDay.getFullYear());
+			});
+		</script>
+	</body>
+	</html>
