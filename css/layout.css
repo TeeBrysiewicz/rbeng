@@ -167,7 +167,8 @@ Description: layout styles
 		min-height: 0;
 	}
 	.nav-logo {
-		width: 350px;
+		width: 80px;
+		margin-top: -20px;
 	}
 	
 
@@ -360,12 +361,12 @@ h1.noSubtitle{
 	font-weight: 800;
 	font-size: 5em;
 	line-height:1em;
-	text-transform:uppercase;
 	padding:0.5em 0;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 .parallaxText h2 {
+
 	font-size: 3.21em;
 	font-weight: 800;
 	line-height:1.5em;
@@ -378,11 +379,10 @@ h1.noSubtitle{
 	font-size: 33px;
 	line-height: 33px;
 	margin-bottom: 0;
-	font-weight: 300;
-	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-family: 'Pinyon Script', cursive;
 	padding-left: 0;
 	border: none;
-	text-transform: uppercase;
 	text-align: center;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.1em;
@@ -508,7 +508,7 @@ blockquote p {
 	font-size: inherit;
 }
 blockquote small {
-	font-size:50%;
+	font-size:60%;
 	display:inline;
 }
 blockquote p:before {
