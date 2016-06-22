@@ -171,6 +171,11 @@ Description: layout styles
 		margin-top: -20px;
 	}
 	
+	.formspree-success {
+		display: none;
+		color: green;
+		margin-left: 20px;
+	}
 
 	/*** MEDIA QUERIES ***/
 
