@@ -106,7 +106,7 @@
 								<img class="img-responsive" src="images/rb-logo-3.png" alt="RB Engineering Logo" />
 							</div>
 							<div id="single-source">
-							<h2>Your single source for..</h2>
+							<h2>Your <strong>single source</strong> for..</h2>
 							</div>
 							<div class="owl-carousel nekoDataOwl " data-neko_items="1" data-neko_singleitem="true" data-neko_pagination="true" data-neko_transitionstyle="fadeUp"  data-neko_autoplay="true">
 								<div class="item">
@@ -123,6 +123,9 @@
 								</div>
 								<div class="item">
 									<h1>Custom Molding</h1>
+								</div>
+								<div class="item">
+									<h1>Custom 3D Scanning</h1>
 								</div>
 							</div> 
 
@@ -586,7 +589,40 @@
 								630.965.7236<br/>
 							</address>
 						</div>
-						<form method="post" action="js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
+
+
+
+						<form method="POST" action="https://formspree.io/robertbrysiewicz@rbeng.net" id="contactfrm" role="form">
+
+							<div class="col-sm-4"> 
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" class="form-control" name="name" id="name" placeholder="Enter name"  title="Please enter your name (at least 2 characters)"/>
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input type="email" class="form-control" name="_replyto" id="email" placeholder="Enter email" title="Please enter a valid email address"/>
+								</div>
+								<div class="form-group">
+									<label for="phone">Phone</label>
+									<input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter phone number" title="Please enter a valid phone number (at least 10 characters)">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<label for="comments">Comments</label>
+									<textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+								</div>
+							</div>                        
+							<div class="col-md-8 col-md-offset-4">
+								<div class="result"></div>
+								<button name="submit" type="submit" class="btn btn-lg" id="submit" value="Send">Submit</button>
+							</div>
+						</form>
+
+
+
+<!-- 						<form method="post" action="js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
 
 							<div class="col-sm-4"> 
 								<div class="form-group">
@@ -619,7 +655,12 @@
 								<div class="result"></div>
 								<button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
 							</div>
-						</form>
+						</form> -->
+
+
+
+
+
 					</div>
 				</div>
 			</section>
