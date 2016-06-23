@@ -96,6 +96,13 @@ Description: layout styles
 		height:auto;
 	}
 
+	.formspree-success {
+		display: none;
+		color: green;
+		margin-left: 20px;
+		text-align: center;
+	}
+
 	.has-error div {
 		padding: 5px;
 		margin-bottom: 20px;
@@ -171,11 +178,7 @@ Description: layout styles
 		margin-top: -20px;
 	}
 	
-	.formspree-success {
-		display: none;
-		color: green;
-		margin-left: 20px;
-	}
+
 
 	/*** MEDIA QUERIES ***/
 

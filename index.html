@@ -84,7 +84,7 @@
 						
 						<div class="collapse navbar-collapse navbar-ex1-collapse" id="scrollTarget">
 							<ul class="nav navbar-nav pull-right">
-								<li class="active"><a href="#homeFullScreen">Home</a> </li>
+								<li class="active"><a href="./index.html">Home</a> </li>
 								<li><a href="#about">About</a> </li>
 
 <!-- 								<li><a href="#services">Services</a> </li>
@@ -112,7 +112,7 @@
 								<img class="img-responsive" src="images/rb-logo-3.png" alt="RB Engineering Logo" />
 							</div>
 							<div id="single-source">
-							<h2>Your <strong>single source</strong> for..</h2>
+							<h2>Your <strong>single source</strong> for</h2>
 							</div>
 							<div class="owl-carousel nekoDataOwl " data-neko_items="1" data-neko_singleitem="true" data-neko_pagination="true" data-neko_transitionstyle="fadeUp"  data-neko_autoplay="true">
 								<div class="item">
@@ -304,6 +304,7 @@
 				</div>
 
 				<div class="portfolio-items  isotopeWrapper clearfix imgHover portfolioMosaic mosaic3">
+					
 					<article class="isotopeItem machining">
 						<figure class="imgWrapper">
 							<img alt="" src="images/portfolio/rb-promo-1-sm.jpg" class="img-responsive">
@@ -319,38 +320,25 @@
 						</figure>
 					</article>
 
-
-					<article class="isotopeItem machining">
+					<article class="isotopeItem scanning">
 						<figure class="imgWrapper">
-							<img alt="" src="images/portfolio/rb-promo-2-sm.jpg" class="img-responsive">
+							<img alt="" src="images/portfolio/rb-promo-10-sm.png" class="img-responsive">
 							<figcaption class="mediaHover">
 
 								<div class="iconLinks"> 
-									<a href="images/portfolio/rb-promo-2.jpg" class="image-link" title="Full width image">
+									<a href="images/portfolio/rb-promo-10.png" class="image-link" title="Full width image">
 										<i class="icon-glyph-16 iconRounded"></i>
 									</a> 
+
+
+									<a href="portfolio-scanning.html" class="sizer portfolioSheet" title="Learn More">
+										<i class="ion-plus-circled iconRounded"></i>
+									</a> 
 								</div>
-								<h3>Machined Die</h3>
+								<h3>Click <a href="portfolio-scanning.html"><i class="ion-plus-circled"></i></a> to learn more</h3>
 							</figcaption>
 						</figure>
 					</article>
-
-
-					<article class="isotopeItem assembling">
-						<figure class="imgWrapper">
-							<img alt="" src="images/portfolio/rb-promo-3-sm.jpg" class="img-responsive">
-							<figcaption class="mediaHover">
-
-								<div class="iconLinks"> 
-									<a href="images/portfolio/rb-promo-3.jpg" class="image-link" title="Full width image">
-										<i class="icon-glyph-16 iconRounded"></i>
-									</a> 
-								</div>
-								<h3>Stair Set</h3>
-							</figcaption>
-						</figure>
-					</article>
-
 
 					<article class="isotopeItem assembling">
 						<figure class="imgWrapper">
@@ -363,6 +351,21 @@
 									</a> 
 								</div>
 								<h3>Conveyor</h3>
+							</figcaption>
+						</figure>
+					</article>
+
+					<article class="isotopeItem machining">
+						<figure class="imgWrapper">
+							<img alt="" src="images/portfolio/rb-promo-2-sm.jpg" class="img-responsive">
+							<figcaption class="mediaHover">
+
+								<div class="iconLinks"> 
+									<a href="images/portfolio/rb-promo-2.jpg" class="image-link" title="Full width image">
+										<i class="icon-glyph-16 iconRounded"></i>
+									</a> 
+								</div>
+								<h3>Machined Die</h3>
 							</figcaption>
 						</figure>
 					</article>
@@ -382,7 +385,7 @@
 						</figure>
 					</article>
 
-					<article class="isotopeItem assembling forming">
+<!-- 					<article class="isotopeItem assembling forming">
 						<figure class="imgWrapper">
 							<img alt="" src="images/portfolio/rb-promo-6-sm.jpg" class="img-responsive">
 							<figcaption class="mediaHover">
@@ -395,7 +398,7 @@
 								<h3>Transistion</h3>
 							</figcaption>
 						</figure>
-					</article>
+					</article> -->
 
 					<article class="isotopeItem assembling">
 						<figure class="imgWrapper">
@@ -442,22 +445,17 @@
 						</figure>
 					</article>
 
-					<article class="isotopeItem scanning">
+					<article class="isotopeItem assembling">
 						<figure class="imgWrapper">
-							<img alt="" src="images/portfolio/rb-promo-10-sm.png" class="img-responsive">
+							<img alt="" src="images/portfolio/rb-promo-3-sm.jpg" class="img-responsive">
 							<figcaption class="mediaHover">
 
 								<div class="iconLinks"> 
-									<a href="images/portfolio/rb-promo-10.png" class="image-link" title="Full width image">
+									<a href="images/portfolio/rb-promo-3.jpg" class="image-link" title="Full width image">
 										<i class="icon-glyph-16 iconRounded"></i>
 									</a> 
-
-
-									<a href="portfolio-scanning.html" class="sizer portfolioSheet" title="Learn More">
-										<i class="ion-plus-circled iconRounded"></i>
-									</a> 
 								</div>
-								<h3>Click <a href="portfolio-scanning.html"><i class="ion-plus-circled"></i></a> to learn more</h3>
+								<h3>Stair Set</h3>
 							</figcaption>
 						</figure>
 					</article>
@@ -592,12 +590,18 @@
 							</address>
 						</div>
 
-
+					<h2 class="formspree-success">Success!</h2>
+					<h3 class="formspree-success">Your message has been sent to RB Engineering.</h3>
 
 						<form method="POST" action="https://formspree.io/robertbrysiewicz@rbeng.net" id="contactfrm" role="form">
 
 							<div class="col-sm-4"> 
 								<div class="form-group">
+									<!-- Hidden Form Properties -->
+									<input type="hidden" name="_subject" value="Website contact" />
+									<input type="text" name="_gotcha" style="display:none" />
+									<!-- / Hidden Form Properties -->
+
 									<label for="name">Name</label>
 									<input type="text" class="form-control" name="name" id="name" placeholder="Enter name"  title="Please enter your name (at least 2 characters)"/>
 								</div>
@@ -618,7 +622,7 @@
 							</div>                        
 							<div class="col-md-8 col-md-offset-4">
 								<div class="result"></div>
-								<button name="submit" type="submit" class="btn btn-lg" id="submit" value="Send">Submit</button><h4 class="formspree-success">Success! We've sent your message.</h4>
+								<button name="submit" type="submit" class="btn btn-lg" id="submit" value="Send">Submit</button>
 							</div>
 						</form>
 
