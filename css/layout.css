@@ -34,7 +34,12 @@ Description: layout styles
 		width: auto;
 	}
 	}*/
+	@media(max-width:768px) {
+
+	}
+
 	@media(max-width:767px){
+
 	}
 
 	@media(min-width:768px){
@@ -58,6 +63,8 @@ Description: layout styles
 			width:1170px;
 		}
 	}
+
+
 
 
 	.navbar {margin-bottom:0;}
