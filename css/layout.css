@@ -274,9 +274,47 @@ Description: layout styles
 	border:none!important;
 }
 
+.newsletter {
+	background-color: rgba(0,0,0,0.6);
+	width: 40%; 
+	padding: 20px; 
+	margin: 0 auto; 
+	border-radius: 8px;
+	margin-top: 5%;
+}
 
+.newsletter-email {
+	background-color: rgba(255,255,255,0.2); 
+	color: white; 
+	font-size: 24px; 
+	display: inline; 
+	outline: none; 
+	border: 0px; 
+	padding: 5px; 
+	width: 70%; 
+	text-align: center;
+}
 
+.newsletter-button {
+	display: inline; 
+	margin-top: 10px; 
+	font-size: 24px; 
+	background-color: teal; 
+	border: 0px; 
+	border-radius: 4px; 
+	padding: 10px; 
+	color: white; 
+	width: 50%;
+}
 
+	@media(max-width:767px){
+		.newsletter {
+			width: 90%;
+		}
+		.newsletter-email {
+			width: 90%;
+		}
+	}
 
 /*** end utilies classes ***/
 
