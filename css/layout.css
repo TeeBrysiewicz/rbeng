@@ -186,6 +186,31 @@ Description: layout styles
 	}
 	
 
+	.about-left {
+		text-align: left;
+	}
+	.about-left h2 {
+		font-size: 2em;
+	}
+	.about-left ul {
+		list-style: none;
+		margin-left: -40px;
+		font-size: 1.3em;
+		line-height: 1.75em;
+	}
+
+	.about-right {
+		text-align: right;
+	}
+	.about-right h2 {
+		font-size: 2em;
+	}
+	.about-right ul {
+		list-style: none;
+		font-size: 1.3em;
+		line-height: 1.5em;
+	}
+
 
 	/*** MEDIA QUERIES ***/
 
@@ -668,6 +693,7 @@ hr {
 /*** call to actioon ***/
 .ctaBox {
 	padding:44px;
+	margin-top: -100px;
 }
 .ctaBox h1,.ctaBox h2, .ctaBox h3, .ctaBox p, .ctaBox blockquote{
 	text-align: center;
@@ -1078,12 +1104,12 @@ body#fullScreen #mainHeader{display:none;}
 /* FOOTER 
 ================================================== */
 
-footer{padding:44px 0;}
+footer{padding:24px 0;}
 footer h3 {
 	text-transform: uppercase;
 	font-weight: 900;
 }
-#footerLogo {margin-bottom: 22px; width: 350px;}
+#footerLogo {margin-top: 25px; width: 400px;}
 #footerRights {padding:22px; font-size:12px;}
 
 
